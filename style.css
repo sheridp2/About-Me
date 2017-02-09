@@ -1,0 +1,37 @@
+div{
+  border: 3px solid black;
+  margin: 10px;
+}
+
+body{
+  background-image: url(http://www.dcpl.info/wp-content/uploads/background-website-26-hd-wallpaper-background-and-wallpaper.jpg);
+}
+
+#start {
+  background-color: #1459CC;
+  font-family: "Helvetica";
+  width: 400px;
+  padding: 10px;
+
+}
+
+div img {
+  width: 40%;
+  height: 40%;
+}
+
+#myBio{
+  background-color: #B22712;
+  font-family: "Times New Roman";
+  width: 500px;
+  padding: 10px;
+
+
+}
+
+.question {
+  
+  background-color: #0747B2;
+  width: 600px;
+  padding: 10px;
+}
