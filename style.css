@@ -30,8 +30,13 @@ div img {
 }
 
 .question {
-  
+
   background-color: #0747B2;
   width: 600px;
   padding: 10px;
+}
+
+#citation{
+  background-color: yellow;
+  width: 200px;
 }
