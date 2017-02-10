@@ -12,6 +12,13 @@ body{
   font-family: "Helvetica";
   width: 400px;
   padding: 10px;
+}
+
+#me {
+float: right;
+margin-top: -150px;
+
+}
 
 }
 
@@ -27,13 +34,6 @@ div img {
   padding: 10px;
 
 
-}
-
-.question {
-
-  background-color: #0747B2;
-  width: 600px;
-  padding: 10px;
 }
 
 #citation{
