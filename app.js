@@ -5,6 +5,7 @@ var confirmQuiz = confirm('Hello, would you like to take a quiz about me?');
 // var answer = [answerOne, answerTwo, answerThree, answerFour, answerFive, answerSix, answerSeven];
 // var correct = [correctOne, correctTwo, correctThree, correntFour, correctFive, correctSix, correctSeven];
 // var incorrect = [incorrectOne, incorrectTwo, incorrectThree, incorrectFour, incorrectFive, incorrectSix, incorrectSeven];
+//return here later to continue changing question and answers into an aaray.
 
 if(confirmQuiz) {
   alert('Great! Lets see how well you know Patrick.');
@@ -21,6 +22,7 @@ if(quizResponseOne.toUpperCase() === 'N') {
 } else {
   alert('You got that one wrong. Patrick does not have a dog.');
 }
+console.log(score);
 
 var quizResponseTwo = prompt('Patrick moved to Washington in 2001. Before this did Patrick live in Maine?');
 if(quizResponseTwo.toUpperCase() === 'N') {
@@ -55,6 +57,8 @@ if(quizResponseFive.toUpperCase() === 'Y'){
   alert('Too bad. You were wrong.');
 }
 
+console.log(score);
+//Below chooses a random number out of 100 and then has user guess that number using 'too high' and 'too low'.
 var pushupNumber = Math.floor (Math.random() * 100) + 1;
 for (var i = 0; i < 4; i++){
   var ageGuess = prompt('How many pushups can Patrick do? You have 4 guesses.');
@@ -71,7 +75,9 @@ for (var i = 0; i < 4; i++){
   }
 }
 alert('Patrick can do ' + pushupNumber + ' pushups! That might be really impressive or not impressive at all. The number was randomly generated!');
+//Since a random number is used, number of puhhups in variable from 1 to 100
 
+//Return to this setion after you set variable at top of page into an Array.
 var myCars = ['VW Jetta', 'Subaru WRX', 'Ford Explorer'];
 var guessCounter = 1;
 
