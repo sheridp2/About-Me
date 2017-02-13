@@ -1,4 +1,5 @@
 'use strict';
+
 var score = 0;
 var confirmQuiz = confirm('Hello, would you like to take a quiz about me?');
 // var question = [questionOne, questionTwo, questionThree, questionFour, questionFive, questionSix, questionSeven];
@@ -9,6 +10,7 @@ var confirmQuiz = confirm('Hello, would you like to take a quiz about me?');
 
 if(confirmQuiz) {
   alert('Great! Lets see how well you know Patrick.');
+  takeQuiz();
 } else {
   alert('Too bad, You are doing it anyway.');
 }
@@ -101,12 +103,14 @@ function questionSeven() {
   alert ('Patrick has owned a VW Jetta, a Ford Explorer, and currently owns a Subaru WRX.');
 }
 
-//function test
-questionOne();
-questionTwo();
-questionThree();
-questionFour();
-questionFive();
-questionSix();
-questionSeven();
-alert('You got ' + score + ' out of 6 qustions right.' );
+//if quiz confirmed, run takeQuiz
+function takeQuiz(){
+  questionOne();
+  questionTwo();
+  questionThree();
+  questionFour();
+  questionFive();
+  questionSix();
+  questionSeven();
+  alert('You got ' + score + ' out of 7 qustions right.' );
+}
